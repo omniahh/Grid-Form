@@ -1,0 +1,131 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html{
+     font-size: 62.5%; 
+}
+
+
+
+.asideContainer
+{
+   
+   font-size: 2em;
+   padding-left: 20px;
+   margin-right: 20px;
+   font-family: 'Lato', sans-serif;
+    background-color: rgb(94, 108, 240);
+    color: white;
+    width: 20%;
+    height: 80%;
+    border-radius: 5px;
+} 
+ul{
+    
+    
+    justify-content: space-around;
+ list-style: none;
+}
+
+.base{
+    background-color: lightgray;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  width: 110em;
+  margin-left: 180px;
+  border-radius: 10px;
+  
+}
+ul #loved{
+    font-size: 2.4em;
+}
+li{
+    font-size: 1em;
+    
+}
+#joinNow{
+    font-size: 1.3em;
+}
+footer{
+    font-size: .5em;
+    justify-content: end;
+    margin-block-start: 330px;
+}
+
+input{
+    border-radius: 3px;
+    height: 2.5em;
+    width: 25em;
+
+
+ }
+
+
+
+ .Name { grid-area: name;
+font-size: 2em; 
+font-family: 'Lato', sans-serif;
+}
+ .email{ grid-area: email;
+    font-size: 2em;
+    font-family: 'Lato', sans-serif;
+    position: relative;
+    right:330px;
+  
+}
+ .comment { grid-area: comment;
+    font-size: 2em; 
+    font-family: 'Lato', sans-serif; }
+ .Join { grid-area: Join;
+ }
+ 
+.gridContainer {
+    display: grid;
+    background-color: rgb(240, 240, 241);
+    border-radius: 10px;
+    padding: 130px 40px;
+    width:80em;
+   height: 33em;
+    grid-template-areas:
+      "name email"
+      "comment comment"
+      "Join Join";
+    
+  }
+
+  label{
+      display: block;
+  }
+
+.button{
+   
+    background-color: rgb(94, 108, 240);
+    color: white;
+    width: 60em;
+    box-shadow:2px 2px lightcyan;
+    border: 2px transparent;
+}
+.comment>input{
+   height: 10em;
+   width: 60em;
+   box-shadow:2px 2px lightcyan;
+   border: 2px transparent;
+}
+
+
+
+    
+.Name input{
+    box-shadow:2px 2px lightcyan;
+   border: 2px transparent;
+  
+ 
+}
+.email input{
+    box-shadow:2px 2px lightcyan;
+    border: 2px transparent;
+
+}
